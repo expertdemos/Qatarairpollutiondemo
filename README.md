@@ -1,7 +1,6 @@
 # Qatar Air Quality Digital Twin — Art of the Possible
 
-A sample demonstration of an air quality digital twin for Qatar. Fifteen pages,
-grouped by what you would want to do: See, Understand, Predict, Test, Act.
+A sample demonstration of an air quality digital twin for Qatar: See, Understand, Predict, Test, Act.
 
 ---
 
