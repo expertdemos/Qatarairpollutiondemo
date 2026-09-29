@@ -1,0 +1,70 @@
+MIT License
+
+Copyright (c) 2026 Soumyashanto Mandal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
+to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+===============================================================================
+DATA SOURCES
+===============================================================================
+
+This licence covers the application code only. Data remains under its own terms.
+
+  Air quality and dust
+    Open-Meteo Air Quality API · air-quality-api.open-meteo.com/v1/air-quality
+    Underlying: Copernicus Atmosphere Monitoring Service (CAMS) global
+    atmospheric composition forecast, ~40 km grid, four runs daily
+    Published by: ECMWF on behalf of the European Commission
+    Licence: Open-Meteo CC BY 4.0 · CAMS data under the Copernicus licence
+
+  Weather
+    Open-Meteo Weather Forecast API · api.open-meteo.com/v1/forecast
+    Underlying: ECMWF IFS and national weather service models
+    Licence: CC BY 4.0
+
+  Base mapping
+    CARTO basemaps (Voyager, Positron) · basemaps.cartocdn.com
+    OpenStreetMap standard tiles · tile.openstreetmap.org
+    Map data © OpenStreetMap contributors, ODbL 1.0
+    Cartography © CARTO, CC BY 3.0
+
+  Satellite imagery
+    Esri World Imagery · server.arcgisonline.com/ArcGIS/rest/services/World_Imagery
+    Imagery © Maxar, Earthstar Geographics, CNES/Airbus DS
+    Licence: Esri terms of use
+
+  Mapping library
+    Leaflet 1.9.4 · BSD 2-Clause
+
+  Health guidelines
+    WHO Global Air Quality Guidelines 2021, ISBN 978-92-4-003422-8
+
+  Cadastral and land parcel data
+    NOT USED. No plot boundaries, title parcels, land ownership or zoning
+    polygons appear anywhere. Base maps show roads, building footprints and
+    place names, which are not legal land parcels. Qatari parcel geometry is
+    held by the Ministry of Municipality (Survey and Land Registration
+    Department) and the Centre for Geographic Information Systems
+    (gisportal.gov.qa). Neither publishes it openly.
+
+===============================================================================
+ASSUMPTIONS
+===============================================================================
+
+The sample dataset is constructed for demonstration. It is not measurement and
+must not be presented as such. All 32 assumptions are listed on the
+"Data & Method" page.
